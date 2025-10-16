@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MESSAGE xmlns="http://www.mismo.org/residential/2009/schemas">
+    <DEAL_SETS>
+        <DEAL_SET>
+            <DEALS>
+                <DEAL>
+                    <PARTIES>
+                        <PARTY>
+                            <INDIVIDUAL>
+                                <NAME>
+                                    <FirstName>John</FirstName>
+                                    <MiddleName>Michael</MiddleName>
+                                    <LastName>Smith</LastName>
+                                    <FullName>John Michael Smith</FullName>
+                                </NAME>
+                                <CONTACT_POINTS>
+                                    <CONTACT_POINT>
+                                        <ContactPointTelephoneValue>555-123-4567</ContactPointTelephoneValue>
+                                        <ContactPointEmailValue>john.smith@email.com</ContactPointEmailValue>
+                                    </CONTACT_POINT>
+                                </CONTACT_POINTS>
+                            </INDIVIDUAL>
+                            <TAXPAYER_IDENTIFIERS>
+                                <TAXPAYER_IDENTIFIER>
+                                    <TaxpayerIdentifierValue>123-45-6789</TaxpayerIdentifierValue>
+                                </TAXPAYER_IDENTIFIER>
+                            </TAXPAYER_IDENTIFIERS>
+                            <ADDRESSES>
+                                <ADDRESS>
+                                    <AddressLineText>1234 Oak Street</AddressLineText>
+                                    <CityName>Los Angeles</CityName>
+                                    <StateName>California</StateName>
+                                    <PostalCode>90210</PostalCode>
+                                    <CountyName>Los Angeles County</CountyName>
+                                </ADDRESS>
+                            </ADDRESSES>
+                        </PARTY>
+                        <PARTY>
+                            <INDIVIDUAL>
+                                <NAME>
+                                    <FirstName>Jane</FirstName>
+                                    <LastName>Doe</LastName>
+                                    <FullName>Jane Doe</FullName>
+                                </NAME>
+                                <CONTACT_POINTS>
+                                    <CONTACT_POINT>
+                                        <ContactPointTelephoneValue>555-987-6543</ContactPointTelephoneValue>
+                                        <ContactPointEmailValue>jane.doe@email.com</ContactPointEmailValue>
+                                    </CONTACT_POINT>
+                                </CONTACT_POINTS>
+                            </INDIVIDUAL>
+                            <TAXPAYER_IDENTIFIERS>
+                                <TAXPAYER_IDENTIFIER>
+                                    <TaxpayerIdentifierValue>987-65-4321</TaxpayerIdentifierValue>
+                                </TAXPAYER_IDENTIFIER>
+                            </TAXPAYER_IDENTIFIERS>
+                        </PARTY>
+                    </PARTIES>
+                    <LOANS>
+                        <LOAN>
+                            <LoanIdentifier>LOAN123456789</LoanIdentifier>
+                            <LOAN_DETAIL>
+                                <LoanAmount>350000</LoanAmount>
+                            </LOAN_DETAIL>
+                            <TERMS_OF_LOAN>
+                                <IncomeAmount>125000</IncomeAmount>
+                            </TERMS_OF_LOAN>
+                        </LOAN>
+                    </LOANS>
+                    <ASSETS>
+                        <ASSET>
+                            <AccountIdentifier>ACC987654321</AccountIdentifier>
+                            <AssetAmount>50000</AssetAmount>
+                        </ASSET>
+                    </ASSETS>
+                    <CREDIT>
+                        <CREDIT_SCORE>
+                            <CreditScoreValue>720</CreditScoreValue>
+                        </CREDIT_SCORE>
+                    </CREDIT>
+                </DEAL>
+            </DEALS>
+        </DEAL_SET>
+    </DEAL_SETS>
+</MESSAGE>
